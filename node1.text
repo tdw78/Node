@@ -1,0 +1,84 @@
+Exercises
+
+1) In your own words highlight the differences in functionality and purposes
+   Client-Side and Server-Side code serves in a full-stack web application.
+
+    - Client-Side code determines what is seen on the users screen. It can also 
+      determine the user interactability of the web app.  Client-Side code is 
+      parsed and rendered by the users browser.
+      Server-Side code is code that handles requests from the client. Requests
+      include retrieving information or files from a database or the web app.
+    
+2) What explains Nodes' rise in popularity and use? What does "Isomorphic JavaScript 
+   programming" mean? Provide some real-world examples not listed in this checkpoint 
+   of companies using Node.js.
+
+    - Node.js has become popular because it simplified building fast, scalable web 
+      apps.  It does this by uding using one language, JavaScript, for server-side 
+      and client-side rendering.  Node is fast because it uses Chrome's V8 engine
+      and uses a single thread event loop which enables it to handle multiple 
+      requests at a time. 
+      Node is also popular because it is cross-platform and lightweight.
+      "Isomorphic JavaScript programming" refers to using JavaScript for the 
+      client-side and the server-side code.
+      Paypal, LinkedIn, Ebay, Walmart and Groupon all use Node.js.
+
+3) Draw a diagram of a full-stack web application and its key components.
+
+    ________________________                       
+   |   __________________   |                   
+   |  |   ___________    |  |         
+   |  |  |  _______  |   |  |                            
+   |  |  | |       | |   |  |  
+   |  |  | |       | |   |  |                      
+   |  |  | |  APP  | |   |  |     
+   |  |  | |_______| |   |  |    
+   |  |  |   REACT   |   |  |                       
+   |  |  |___________|   |  |                                           
+   |  |     Browser      |  |                     
+   |  |__________________|  |
+   |     Client Computer    | 
+   |________________________| 
+               |
+               |
+               |
+               |  
+               | 
+    ________________________                       
+   |   __________________   |                   
+   |  |   ___________    |  |         
+   |  |  |  _______  |   |  |                              
+   |  |  | |       | |   |  |                       ____________            
+   |  |  | |       | |   |  |                      |            |         
+   |  |  | |  APP  | |   |  |                      |            |
+   |  |  | |_______| |   |  | <------------------> |  DATABASE  |    
+   |  |  |  EXPRESS  |   |  |                      |            |  
+   |  |  |___________|   |  |                      |____________|                     
+   |  |       NODE       |  |                     
+   |  |__________________|  |
+   |    BACK END SERVER     | 
+   |________________________|
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
