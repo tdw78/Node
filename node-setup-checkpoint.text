@@ -1,0 +1,18 @@
+Exercises
+
+1) What is npm and what does it do?
+
+    - npm stands for Node.js Package Manager.  It is a command line tool used to 
+      organize and manage all of the packages the developer is using to build their
+      application.
+
+2) What kind of information does package.json hold?
+
+    - The package.json file contains the applications meta data.
+
+3) Google another Node package. Using the demo directory run npm install 
+   <theNameOfThePackage> --save. Check the contents of your package.json file to 
+   make sure that the dependencies list the name of the Node package.
+
+   - I installed Grunt, a JavaScript task runner.  It is displayed in the 
+     dependencies list of my package.json file. 
